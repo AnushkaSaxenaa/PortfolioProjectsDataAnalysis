@@ -1,10 +1,10 @@
 /*
 Covid 19 Data Exploration 
 
-Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+Skills that I have used for Covid Data Exploration: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
 */
-
+-- Selecting everything from CovidDeaths table to get an idea about the data more accurately.
 Select *
 From PortfolioProject..CovidDeaths
 Where continent is not null 
